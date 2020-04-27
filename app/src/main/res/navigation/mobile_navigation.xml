@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/main_fragment">
+
+    <fragment
+        android:id="@+id/main_fragment"
+        android:name="com.art_int_labs.lead_up.ui.main.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" />
+    <fragment
+        android:id="@+id/courses_fragment"
+        android:name="com.art_int_labs.lead_up.ui.courses.CoursesFragment"
+        android:label="courses_fragment"
+        tools:layout="@layout/courses_fragment" />
+    <fragment
+        android:id="@+id/knowledges_fragment"
+        android:name="com.art_int_labs.lead_up.ui.knowledges.KnowledgesFragment"
+        android:label="knowledges_fragment"
+        tools:layout="@layout/knowledges_fragment" />
+    <fragment
+        android:id="@+id/achievments_fragment"
+        android:name="com.art_int_labs.lead_up.ui.achievments.AchievmentsFragment"
+        android:label="achievments_fragment"
+        tools:layout="@layout/achievments_fragment" />
+</navigation>
